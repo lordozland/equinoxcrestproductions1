@@ -4,7 +4,11 @@
   "description": "Jaarvis One",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node ./db/seed.js"
+
   },
   "repository": {
     "type": "git",
