@@ -27,3 +27,7 @@ main {
   justify-content: center;
   align-items: center;
 };
+
+.crimson {
+  font-family: 'Crimson Text', serif;
+}
