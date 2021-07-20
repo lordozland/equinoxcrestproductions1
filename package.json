@@ -17,11 +17,19 @@
   },
   "homepage": "https://github.com/lordozland/equinoxcrestproductions1#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
+    "fs": "0.0.1-security",
     "handlebars": "^4.7.7",
+    "helmet": "^4.6.0",
     "materialize": "^1.0.0",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
     "node": "^16.5.0",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "sequelize": "^6.6.5"
   }
 }
