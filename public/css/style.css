@@ -11,6 +11,11 @@ body {
   font-family: 'Crimson Text', serif;
 }
 
+.crimson {
+  color: green;
+  font-family: 'Crimson Text', serif;
+}
+
 main {
   flex: 1 0 auto;
 }
