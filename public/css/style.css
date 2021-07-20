@@ -1,26 +1,29 @@
 :root {
     --buttons: burlywood;
-  };
+};
 
 
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    font-family: 'Crimson Text', serif;
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Crimson Text', serif;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
 
 .gene {
-    background-color: var(--buttons);
-    border-radius: 50px;
-    border: transparent;
-    border-top-left-radius: 20px 20px;
-    border-top-right-radius: 20px 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-  };
+  background-color: var(--buttons);
+  border-radius: 50px;
+  border: transparent;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+};
