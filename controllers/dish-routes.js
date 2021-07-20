@@ -11,6 +11,14 @@ router.get('/', async (req, res) => {
   res.render('home');
 });
 
+router.get('/home', async (req, res) => {
+    res.render('home');
+  });
+
+router.get('/life', async (req, res) => {
+    res.render('life');
+  });
+
 
 
 module.exports = router;
